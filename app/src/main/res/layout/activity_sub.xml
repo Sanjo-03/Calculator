@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <EditText
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NUMBER 1"
+        android:inputType="number"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="12dp"
+        android:background="#aabbcc"
+        />
+    <EditText
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NUMBER 2"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="12dp"
+        android:background="#aabbcc"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b1"
+        android:background="#5437D95A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="SUB"
+        android:textSize="20dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/b2"
+        android:background="#5437D95A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="GO TO MENU"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/n3"
+        android:text="0"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_margin="20dp"
+        />
+</LinearLayout>
